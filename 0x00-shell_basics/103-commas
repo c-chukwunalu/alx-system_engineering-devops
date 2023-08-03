@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -m -d -v --group-directories-first ./* | sed 's/, /,/g; s@^\./@./@; s@,@, @g; s@/$@/,/'
