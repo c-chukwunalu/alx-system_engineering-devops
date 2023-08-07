@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "Content of /etc/hosts: "; cat /etc/hosts | tr '\n' ' '
+cat /etc/passwd | cat /etc/hosts
